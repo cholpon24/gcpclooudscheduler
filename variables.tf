@@ -5,7 +5,7 @@ variable "project" {
 # set to every day, at 18:00 hourds (6pm)
 # https://crontab.guru/
 variable "cron_pattern" {
-  default = "0 18 * * *"
+  default = "0 17 * * *"
 }
 
 variable "label_key" {
