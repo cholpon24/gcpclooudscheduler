@@ -77,7 +77,7 @@ resource "google_cloudfunctions_function" "function" {
 
   timeout               = 120
   entry_point           = "function_scheduler_start"
-  service_account_email = google_service_account.sa
+  service_account_email = google_service_account.sa.mail
   
   
 
