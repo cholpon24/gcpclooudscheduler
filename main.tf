@@ -25,7 +25,7 @@ resource "google_storage_bucket" "bucket" {
 }
 
 resource "google_storage_bucket_object" "archive" {
-  name   = "function.zip"
+  name   = "gcpcloudfunction.zip"
   bucket = google_storage_bucket.bucket.name
   source = "gcp/gcpcloudfunction.zip"
 }
