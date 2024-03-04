@@ -3,6 +3,10 @@ import datetime
 import pandas as pd
 from google.cloud import storage
 from google.cloud import bigquery
+# from googleapiclient import discovery
+# from oauth2client.client import GoogleCredentials
+from pprint import pprint
+import os
 # Define variables for Cloud Functions
 bucket_name = 'gcf-sources-205237336028-us-central212'
 project_name = 'project-1-360620'

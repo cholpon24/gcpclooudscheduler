@@ -60,7 +60,7 @@ resource "google_project_iam_member" "sa-iam-member" {
 }
 
 resource "google_cloudfunctions_function" "function" {
-  name                  = "function-scheduler-function1"
+  name                  = "function-scheduler-function2"
   description           = "Cloud function to do the heavy lifting"
   available_memory_mb   = 128
   source_archive_bucket = "${google_storage_bucket.bucket.name}"
