@@ -9,7 +9,7 @@ resource "google_pubsub_topic" "topic" {
 }
 
 resource "google_cloud_scheduler_job" "job" {
-  name        = "function-scheduler-job"
+  name        = "function-scheduler-job1"
   description = "Cloud Scheduler to create function ."
   schedule    = var.cron_pattern
 
