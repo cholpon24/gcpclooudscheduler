@@ -1,6 +1,6 @@
 terraform {
     backend "gcs" {
-    bucket = "multicloudterraform-backend"
+    bucket = "multicloud1234-state-bucket"
     prefix = "state_function1"
 }
 }
