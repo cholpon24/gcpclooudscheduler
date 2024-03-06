@@ -8,8 +8,8 @@ from google.cloud import bigquery
 from pprint import pprint
 import os
 # Define variables for Cloud Functions
-bucket_name = 'gcf-sources-205237336028-us-central212'
-project_name = 'project-1-360620'
+bucket_name = 'gcf-sources-534708300643-us-central1'
+project_name = 'customproject-360617'
 dataset_name = 'test'
 table_name = 'example_data'
 
