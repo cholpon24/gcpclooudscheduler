@@ -136,4 +136,8 @@ def hello_pubsub(event, context):
     generate_data()
 
 def function_scheduler_start(event, context):
+<<<<<<< HEAD
     hello_pubsub(event, context)
+=======
+    hello_pubsub(event, context)
+>>>>>>> b080025c306c4f25d89db725e953d51b446430d8
