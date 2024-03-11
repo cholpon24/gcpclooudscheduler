@@ -43,6 +43,7 @@ resource "google_project_iam_custom_role" "sa_custom_role" {
     "compute.instances.list",
     "compute.instances.stop",
     "compute.zones.list",
+    "storage.buckets.get"
     # "iam.serviceAccountUser",
     
     
